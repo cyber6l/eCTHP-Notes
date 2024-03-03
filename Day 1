@@ -12,15 +12,27 @@ reactive vs proactively
 reactive : Real-time monitoring like SOC 
 proactively : After Real-time monitoring such as Threat hunting
 
-
 Incident Response: اي شي مخالف لساسيه الشركه و يؤدي الى threat
 
 Incident Response Process: 1- Preparation 2 -detection and analysis 3 -Recovery  4 -Post-Incident Activity      
 
-
-
 What is a risk assessment : process of assessing threats, vulnerabilities, and
 their likelihood of occurring to the organization's assets.
+
+وهنا خلصنا اول شابتر 
+وننتقل للشابتر الثاني 
+
+The first term we'll discuss in this module is APT, which
+stands for Advanced Persistent Threat; this is a word you
+are probably familiar with, even if you're just getting into
+threat hunting.
+APTs aregggæor nation-states that have a significant
+amount of resources¯äfiffiöfüructure to conduct their
+malicious activities. Their targets are in various industries
+such as governments, health care systems, and defense
+systems.
+
+
 
 
 
