@@ -1,8 +1,11 @@
-بسم الله الرحمن الرحيم 
+                                                             بسم الله الرحمن الرحيم 
 بدايه اول يوم بكورس eCTHP
 اليوم الاول اغلبه بيكون تعاريف ومصطلحات بسيطة حاولت الخصها ولا اتعمق
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
-* Introduction to Threat Hunting *
+                                                  * Introduction to Threat Hunting *
+
+                                                        << 1.1 Introduction >>
 
 What is Threat Hunting : Threat hunting is the human-centric process of proactively
 searching data and discovering cyber threats.
@@ -14,17 +17,27 @@ reactive vs proactively
 reactive : Real-time monitoring like SOC 
 proactively : After Real-time monitoring such as Threat hunting
 
+
+                                                      << Incident Response >>
+
+
 Incident Response: اي شي مخالف لساسيه الشركه و يؤدي الى threat
 
 Incident Response Process: 1- Preparation 2 -detection and analysis 3 -Recovery  4 -Post-Incident Activity      
+                                |-----------------------repetition---------------------------|
 
+                                                        << Risk Assessments >>
 
 What is a risk assessment : process of assessing threats, vulnerabilities, and
 their likelihood of occurring to the organization's assets.
 
-وهنا خلصنا اول شابتر 
+ وهنا خلصنا اول شابتر 
+----------------------------------------------------------------------------------------------------------------------------------------
 
-* Threat Hunting Terminology *
+
+                                                 * Threat Hunting Terminology *
+
+                                                  << 2.1 Threat Hunting Terms >>
 
  APTs : APTs, or Advanced Persistent Threats, refer to organized groups or nation-states equipped with 
  substantial resources and sophisticated infrastructure, enabling them to engage in prolonged and targeted 
@@ -42,6 +55,56 @@ their likelihood of occurring to the organization's assets.
  Indicators of Compromise (IOCs): are traces or artifacts extracted from either a current intrusion or a past security breach
 
 
- For example https://ibb.co/L5LQNhd
+ For example ->> GETMAIL: Malware for extracting emails and attachments from Outlook PST files.
+
+                 MAPIGET: Malware targeting the extraction of emails and attachments from Exchange 
+                          servers
+
+Pyramid of Pain : هو هرم
+                                                    **
+                                            -----------------
+                                    1       /      TTPs      \
+                                    2      /      Tools       \
+                                    3     /    Network Host    \
+                                    4    /   Domian Names       \
+                                    5   /   IP Addresses         \
+                                    6  /   Hash Values            \
+                                       ----------------------------
+Hash Values : A fixed-length numeric value serving as a unique identifier for data, used as a signature, such as {92dae8b89a9e366b88f57a11768ea}
+IP addresse : An IP address is a numerical label assigned to devices on a network, used for identification and communication.
+Domain names : aided by Dynamic DNS providers with APIs, are easily changeable web addresses.
+Network/Host artifacts:  are traces left by adversaries in network packets or on endpoint systems, serving as clues for investigation.
+Tools : its Tool ur USING LOL 
+TTPs : Tactics , Techniques , Procedures شرحتها فوق لكم
+
+
+The Cyber Kill Chain: outlines the stages of a cyber attack.
+In both realms, it denotes the step-by-step progression of an offensive operation.
+
+1- Recon: Gathering information on the target.
+2- Weaponize: Developing and preparing the attack.
+3- Deliver: Transporting the malicious payload to the target.
+4- Exploit: Taking advantage of vulnerabilities to infiltrate.
+5- Install: Implanting the malware on the target system.
+5- C&C (Command & Control): Establishing control over the compromised system.
+6- Action: Executing the intended malicious activities on the target.
+
+                                                  
+
+                                                << 2.2 Threat Hunting Mindset >>
+
+What is threat intelligence? relevant information about potential cyber threats, 
+aiding organizations in understanding and addressing security risks promptly.
+
+Threat Intelligence can be divided into 3 types:
+1. Strategic: Who, Why, and Where
+2. Tactical: What and When
+3. Operational: How
+
+وبكذا خلصنا وحاولت اني اختصر المعلومات بقدر الامكان وتكون ومراجعه لك 
+
+
+
+
 
 
