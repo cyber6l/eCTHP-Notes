@@ -2,6 +2,8 @@
 بدايه اول يوم بكورس eCTHP
 اليوم الاول اغلبه بيكون تعاريف ومصطلحات بسيطة حاولت الخصها ولا اتعمق
 
+* * Introduction to Threat Hunting
+
 What is Threat Hunting : Threat hunting is the human-centric process of proactively
 searching data and discovering cyber threats.
 
@@ -16,7 +18,6 @@ Incident Response: اي شي مخالف لساسيه الشركه و يؤدي ا
 
 Incident Response Process: 1- Preparation 2 -detection and analysis 3 -Recovery  4 -Post-Incident Activity      
 
-![image src="https://i.ibb.co/xfxsRsh/Incident-Response-Phases.jpg" ]
 
 What is a risk assessment : process of assessing threats, vulnerabilities, and
 their likelihood of occurring to the organization's assets.
