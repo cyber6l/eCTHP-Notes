@@ -2,7 +2,7 @@
 بدايه اول يوم بكورس eCTHP
 اليوم الاول اغلبه بيكون تعاريف ومصطلحات بسيطة حاولت الخصها ولا اتعمق
 
-* Introduction to Threat Hunting
+* Introduction to Threat Hunting *
 
 What is Threat Hunting : Threat hunting is the human-centric process of proactively
 searching data and discovering cyber threats.
@@ -23,21 +23,25 @@ What is a risk assessment : process of assessing threats, vulnerabilities, and
 their likelihood of occurring to the organization's assets.
 
 وهنا خلصنا اول شابتر 
-وننتقل للشابتر الثاني 
 
-The first term we'll discuss in this module is APT, which
-stands for Advanced Persistent Threat; this is a word you
-are probably familiar with, even if you're just getting into
-threat hunting.
-APTs aregggæor nation-states that have a significant
-amount of resources¯äfiffiöfüructure to conduct their
-malicious activities. Their targets are in various industries
-such as governments, health care systems, and defense
-systems.
+* Threat Hunting Terminology *
+
+ APTs : APTs, or Advanced Persistent Threats, refer to organized groups or nation-states equipped with 
+ substantial resources and sophisticated infrastructure, enabling them to engage in prolonged and targeted 
+ malicious activities with a high degree of expertise and persistence.
+
+ What is TTP ?
+
+ Tactics : encompass the deliberate organization and use of forces to achieve a specific goal,
+ representing the strategic rationale behind a chosen course of action.
+
+ Techniques : هي الطرق أو الأساليب غير التوجيهية المستخدمة لأداء المهام أو الوظائف أو المهام
+
+ Procedures : هي سلسلة محددة وقياسية من الإجراءات توفر دليلًا مفصلاً وموحدًا حول كيفية تنفيذ مهام
+
+ Indicators of Compromise (IOCs): are traces or artifacts extracted from either a current intrusion or a past security breach
 
 
-
-
-
+ For example https://ibb.co/L5LQNhd
 
 
