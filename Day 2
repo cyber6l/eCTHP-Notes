@@ -48,12 +48,20 @@ by analyzing large datasets and identifying patterns of malicious activity.
 
 The data utilized in either of the hunting methods can be 
 split into 3 
-1. Point in Time
-2. Real-Time                    اعتقد ما يحتاج افصل فيها واضحه ان شاء الله
-3. Historic
+1. Point in Time 
+2. Real-Time                   اعتقد ما يحتاج افصل فيها واضحه ان شاء الله
+3. Historic 
 
 
+Simulation attacks
+APT Simulator - fligtsim -atomic redteam -purple sharp -MITRE CALDERA -VECTR 
 وهنا خلصنا الشابتر 2
 
 ----------------------------------------------------------------------------------------------------------------------------------------
- 
+                                      
+                                                  * Threat Hunting Professional *
+
+                                            << 3.2 Threat Intelligence Reports and Research >>
+
+
+
