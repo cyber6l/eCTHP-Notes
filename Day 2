@@ -1,1 +1,58 @@
 اليوم ان شاء الله بنكمل اخر سكشن من شابتر 2
+
+                                      << Threat Hunting Mindset:Digital Forensics >>
+رح يركز هذا السكشن على البحث المجهول بالشبكه ولا الذاكره
+ولازم تحدد وش البيانات الي تحددها وتركز عليها وتساعدك
+such as:
+• Application and System Logs
+• User Account Activity
+• Registry Analysis
+• Malware Signatures and Behavior
+• Email and Web Content Logs
+• Intrusion Detection System (IDS) Alerts 
+
+وهنا عشان تكون Strong Threat hunter 
+لازم تكون استباقي وتحلل عشان تعرف اذا كان فيه تهديد وتفحص بطريقتك عشان تحصل الثغره
+
+وبرضو عشان تكون صائد ثغرات قوي لازم بقوه تعرف 
+لازم لازم تعرررررف
+لغه برمجه* اذا ودك يعني طال عمرك*
+OSWAP 10 
+تقرا وتكون مطلع على المصادر الموثوقه 
+تشوف writeup
+وتقراه بعد ما تخلص تقفله يرحم امك ما تنقل لازم تجرب بنفسك 
+واذا كان عندك قدره تتعلم : Reverse Engineer , Binary Exploitation 
+بتفرق معك كثير
+
+ بس كذا ؟ هو مبدئياً 
+بعدين يبدا الشغل عليك انك تفحص بشكل يدوي وما تقول والله جاني مكرر بوقف لكل شخص طريقه فحص معينه
+وكل ما تجرب بتصير احسن من قبل
+
+خلصنا لا باقي
+
+عندك طريقتين تمشي معها لا جيت تفحص
+1. Attack based hunting
+2. Analytics-based hunting
+
+Attack based hunting  
+هنا يبدا الفن حقك                                                                    
+تبحث عن ادله او اتاك محد جربه قبلك 
+على wininit.exe
+نقدر نعرف الاسلوب ذا بسؤال
+“Did …….. happen in my network”?
+
+Analytics-based hunting
+definition : advanced analytics to proactively detect potential threats in a computer network
+by analyzing large datasets and identifying patterns of malicious activity.
+
+
+The data utilized in either of the hunting methods can be 
+split into 3 
+1. Point in Time
+2. Real-Time                    اعتقد ما يحتاج افصل فيها واضحه ان شاء الله
+3. Historic
+
+
+وهنا خلصنا الشابتر 2
+
+
