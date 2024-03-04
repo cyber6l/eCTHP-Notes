@@ -4,6 +4,8 @@
 
 *  تلخيص لمعسكر التدريبي المقدم من سايبر هب
 
+
+"I would like to clarify that these are merely notes for my certification study, and I have not violated any intellectual property rights For INE, engaged in plagiarism, or unlawfully transferred content"
  
  By Talal Alqahtani
  
