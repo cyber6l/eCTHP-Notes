@@ -61,7 +61,48 @@ APT Simulator - fligtsim -atomic redteam -purple sharp -MITRE CALDERA -VECTR
                                       
                                                   * Threat Hunting Professional *
 
-                                            << 3.2 Threat Intelligence Reports and Research >>
+                                         << 3.2 Threat Intelligence Reports and Research >>
+
+لازم تقرا ريبورتات لثغرات صارت لشركات او تقرا عن CVE 
+وفي مصادر توفرها لك  
+• FireEye ^_^ احسنهم 
+• Verizon
+• TrustWave
+• CrowdStrike
+• Palo Alto Networks
+• Cylance
+• F-Secure
+
+اذا قريت ريبورت تسال نفسك عشان تساعدك تختصر الوقت وتسوي تطابق مع شغلك
+• how was the objective achieved?
+• What can we do to detect this activity?
+• Is this similar to previously known activity?
+
+
+                                                << 3.3 Threat Sharing and Exchanges >>
+
+
+
+                                                  << 3.4 Indicators of Compromise >> 
+
+
+Try again
+Indicators of compromise (IOCs) are “pieces of forensic 
+data, such as data found in system log entries or files, that 
+identify potentially malicious activity on a system or 
+network.
+
+وش فايدتها طيب؟
+تساعد المنظمه انها تراقب المؤشرات وتكتشف الثغرات قبل ما يصير Incident or Threat
+
+مثل OPENIOC developed by FireEye 
+and YARA Tool by uesing for helping malware researchers to identify and classify malware samples
+
+
+وكذا خلصنا الجزء النظري ونخش على العملي
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
 
 
 
