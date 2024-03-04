@@ -102,6 +102,59 @@ and YARA Tool by uesing for helping malware researchers to identify and classify
 وكذا خلصنا الجزء النظري ونخش على العملي
 
 
+نحمل الادوات على اجهزتنا ولا تستخدمها جاهزه ب INE 
+
+YARA in kali 
+
+https://fireeye.market/apps/211364 redline
+Redline | FireEye Market
+Accelerated live response using host data.
+
+
+
+
+https://fireeye.market/apps/S7cWpi9W ioc editor
+IOC Editor | FireEye Market
+Free editor for Indicators of Compromise (IOCs)
+
+اللاب الاول هو سيناريو لاكتشاف وتحليل برمجيات الضارة
+التاسك 1
+
+IOC  
+
+MD5 بنفحص البرامج الضاره ب استخدام الهاش عشان اقدر اجيب تجزئه
+
+بنستخدم Mandiant IOC Editor عشان ننشاء مؤشر التهديد (IOC) باستخدام الهاش وحجم الملف وبعض السلاسل من نتائج أمر Strings
+
+الحين بنسوي Test for IOC with the Redline tool by examining the selected set of hashes and strings
+
+التاسك 2
+
+YARA
+
+بنسوي قاعده بيانات يارا ب استخدام الهاش 
+ونختبرها 
+
+التاسك 3
+
+بنراجع القاعده ليه؟ عشان يطلع لنا اشياء بالكشف افضل وتفيدينا
+Using yargen.py كيف؟ 
+
+التاسك 4
+
+والحين نسوي لها RUN مره ثانيه 
+
+وخلصنا العملي
+
+Key Takeaways:
+
+Emphasizes the importance of testing IOC and YARA rules to ensure effectiveness in detecting targeted threats.
+Caution is advised when balancing the number of signatures in IOC and YARA rules to avoid false positives.
+The example demonstrates how to enhance detection capabilities by refining a YARA rule based on test results.
+
+
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
