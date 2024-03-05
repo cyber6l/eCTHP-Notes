@@ -82,3 +82,58 @@ Hints at tools for packet logging and briefly mentions networking basics
 بالنهايه كل الكلام ذا مهم عشان تلحق التهديد ورا الشبكه 
 
 
+                        << 1.2 TCP/IP & Networking Primer >>
+Why It Matters!!!!
+
+Understand TCP/IP stack for spotting anomalies
+Know normal network communication, like a forgotten workstation's weekend FTP session
+
+Hunter's Know-How:
+Threat Hunter needs expertise in TCP/IP, port numbers, and app behavior on the network
+
+Packets & Structure:
+Data travels as packets with headers and payloads
+Knowledge helps hunters analyze captures efficiently
+
+OSI & TCP/IP Models:
+Layers in both models. Protocols operate at different levels
+
+Encapsulation Magic:
+Protocols add headers during encapsulation. Reversed at the destination
+
+IP Protocol & Routers:
+IP delivers datagrams; routers forward them based on routing protocols
+
+Routing & Switching:
+Routing protocols determine paths; switches work with MAC addresses
+
+ARP & Communication:
+ARP request and reply process for IP address to MAC address mapping
+
+TCP Handshake:
+3-way handshake for TCP connections 
+The header fields involved in 
+the handshake are:
+• Sequence number
+• Acknowledgment number
+• SYN and ACK flags
+
+UDP Directed connected
+
+وبعض البورتات المهمه 
+
+• SMTP (25)
+• SSH (22)
+• POP3 (110)
+• IMAP (143)
+• HTTP (80)
+• HTTPS (443)
+• NETBIOS (137, 138, 139)
+• SFTP (115)
+• Telnet (23)
+• FTP (21)
+• RDP (3389)
+• MySQL (3306)
+• MS SQL Server (1433)
+
+
