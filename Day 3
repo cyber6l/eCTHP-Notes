@@ -5,79 +5,80 @@ This threat hunting methodology involves a systematic 5-step process:
 
 1- Pick a Tactic and Technique:
 
-Choose a specific attack technique from MITRE ATT&CK (e.g., T1502 - Parent PID Spoofing).
-Focus on "Privilege Escalation" as an example.
+Choose a specific attack technique from MITRE ATT&CK (e.g., T1502 - Parent PID Spoofing)
+Focus on "Privilege Escalation" as an example
 
 2-Identify Associated Procedure(s):
 
-Explore ATT&CK for procedures related to the chosen technique.
-Conduct additional research through reports and blogs for a comprehensive understanding.
+Explore ATT&CK for procedures related to the chosen technique
+Conduct additional research through reports and blogs for a comprehensive understanding
 
 3-Perform an Attack Simulation:
 
-Replicate the chosen technique's procedures to observe data and logs.
-Understand the exhibited behaviors for future detection capabilities.
+Replicate the chosen technique's procedures to observe data and logs
+Understand the exhibited behaviors for future detection capabilities
 
 4-Identify Evidence to Collect:
 
-Investigate artifacts across various locations (disk, in-memory, network, registry).
-Look for deviations, abnormal occurrences, and unexpected encryption.
+Investigate artifacts across various locations (disk, in-memory, network, registry)
+Look for deviations, abnormal occurrences, and unexpected encryption
 
 5-Set Scope:
 
-Define the hunt scope, specifying duration and data sources.
-Consider external factors, limitations, and assumptions guiding future decisions.
+Define the hunt scope, specifying duration and data sources
+Consider external factors, limitations, and assumptions guiding future decisions
 
                                                     << 4.4 Hunting Metrics >>
 
-Hunting metrics serve to measure and report progress during threat hunting. 
+Hunting metrics serve to measure and report progress during threat hunting
 Key considerations include:
 
 Meaningful Metrics:
 
-Metrics go beyond finding malicious activity to gauge the effectiveness of the hunting process.
+Metrics go beyond finding malicious activity to gauge the effectiveness of the hunting process
 Avoiding Production Simulations:
 
-Caution against simulating malicious activity in live environments.
-Proposes coordination with penetration testing teams for safe detection capability testing.
+Caution against simulating malicious activity in live environments
+Proposes coordination with penetration testing teams for safe detection capability testing
 Controlled Metrics for Showcase:
 
-Metrics under hunter control demonstrate work effectively.
-Examples include hunt frequency, ATT&CK technique coverage, relevant procedure coverage, network hunting, and historical logging capability.
-The focus is on proactive and controlled metrics, acknowledging that finding malicious activity may not always be possible in real-world scenarios.
+Metrics under hunter control demonstrate work effectively
+Examples include hunt frequency, ATT&CK technique coverage, relevant procedure coverage, network hunting, and historical logging capability
+The focus is on proactive and controlled metrics, acknowledging that finding malicious activity may not always be possible in real-world scenarios
 
 
 كذا خلصنا اول سكشن 
---------------------------------------------------------------------------------------------------------------------------------------------
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 ننتقل للنتويرك والسكشن 2 للنيتورك
                                   << 1.1 Introduction to Network Hunting >>
 
+بالبدايه لازم توضح لك ان
+Introduces threat hunting without CTI reliance
+Analysis a top-down approach and mentions CTI, network analysis, and endpoints
+Team Dynamics وش :
 
-Overview:
+Discusses team structures, assuming separate IT Security and Network teams
 
-Introduces threat hunting without CTI reliance.
-Stresses a top-down approach and mentions CTI, network analysis, and endpoints.
-Team Dynamics:
+وش دور الثرت هانتق طيب:
 
-Discusses team structures, assuming separate IT Security and Network teams.
-Role of Threat Hunters:
+هو Describes the role within the IT Security Team based on organization size
 
-Describes the role within the IT Security Team based on organization size.
 Network Hunting Scenario:
 
-Outlines a scenario with the Network Team alerting a threat hunter.
+Outlines a scenario with the Network Team alerting a threat hunter
+
 Process Steps:
 
-Highlights steps: capturing packets and analyzing for threat confirmation.
+Highlights steps: capturing packets and analyzing for threat confirmation
+
 Detection Methods:
 
-Explains how the Network Team identifies suspicious activity through alerts and analysis.
+Explains how the Network Team identifies suspicious activity through alerts and analysis
+
 Tools and Technologies:
 
-Hints at tools for packet logging and briefly mentions networking basics.
-Conclusion:
-
-Emphasizes the importance of network-centric threat hunting.
+Hints at tools for packet logging and briefly mentions networking basics
+بالنهايه كل الكلام ذا مهم عشان تلحق التهديد ورا الشبكه 
 
 
