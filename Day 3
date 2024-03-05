@@ -48,7 +48,7 @@ The focus is on proactive and controlled metrics, acknowledging that finding mal
 
 
 كذا خلصنا اول سكشن 
--_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-__-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 
 ننتقل للنتويرك والسكشن 2 للنيتورك
                                   << 1.1 Introduction to Network Hunting >>
@@ -190,13 +190,16 @@ Berkley Packet Filter (BPF):
 BPF, a filtering language, is mentioned for capturing and filtering packets
 
 '_' وقفلنا جزء الشبكات والشابتر الاول بشكل مختصر
---------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
                                         << 2.2 ARP Traffic >>
 بنرجع نعيد وش ARP وبشرحه السكشن بكل اختصار
 
 طيب وش الفايده
 يساعدك على التمييز بين حركة مرور العاديه و المحتمل انها تكون ضاره عشان تقفط التهديد على الشبكه
+
+ويفضل اذا تستخدم استخدم واير شارك عشان التصفيه تفيدك
+
 وهنا لخصت لكم اغلب الاشياء المهمه
 
 ARP Protocol Overview:
@@ -239,7 +242,16 @@ Emphasizes the importance of understanding basic ARP behavior for effective inve
 ARP Poisoning Mention:
 Briefly mentions ARP Poisoning as a nefarious technique for Man-In-The-Middle Attacks
 
-Further Reading:
-Encourages referencing the Wireshark Display Filter Reference for ARP for additional filtering techniques
 
+                                    << 2.3 ICMP Traffic >>
+
+بكل اختصار السكشن هذا يتكلم عن
+The section covers ICMP (Internet Control Message Protocol) traffic, which is crucial for troubleshooting. ICMP is used by tools like ping
+The content includes an example of an ICMP header, visualizations of ping traffic, and details about normal and suspicious ICMP traffic
+The warning highlights the potential covert use of the ICMP data field and emphasizes vigilance for large packets and unusual types/codes
+The section concludes by suggesting referring to the Wireshark Display Filter Reference for ICMP for additional information on filtering ICMP traffic
+
+وكذا خلصنا اليوم 3 وبكره نكمل السكشن ونخلص قسم النيتورك
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
