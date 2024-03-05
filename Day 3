@@ -122,18 +122,72 @@ UDP Directed connected
 
 وبعض البورتات المهمه 
 
-• SMTP (25)
-• SSH (22)
-• POP3 (110)
-• IMAP (143)
-• HTTP (80)
-• HTTPS (443)
-• NETBIOS (137, 138, 139)
-• SFTP (115)
-• Telnet (23)
-• FTP (21)
-• RDP (3389)
-• MySQL (3306)
-• MS SQL Server (1433)
+• SMTP (25): Simple Mail Transfer Protocol
+• SSH (22): Secure Shell
+• POP3 (110): Post Office Protocol 3
+• IMAP (143): Internet Message Access Protocol
+• HTTP (80): Hypertext Transfer Protocol
+• HTTPS (443): Hypertext Transfer Protocol Secure
+• NETBIOS (137, 138, 139): Network Basic Input/Output System
+• SFTP (115): Secure File Transfer Protocol
+• Telnet (23): Telnet Protocol
+• FTP (21): File Transfer Protocol
+• RDP (3389): Remote Desktop Protocol
+• MySQL (3306): MySQL Database Service                           {{ kali and win }}
+• MS SQL Server (1433): Microsoft SQL Server            
 
+                      
+                                    << 1.3 Packet Analysis & Tools >>
 
+Purpose:The module focuses on packet capturing and analysis tools in network security
+
+acket Capturing:
+Involves capturing raw packets during network traversal
+Live captures or PCAP files from the Network Team are common methods
+
+PCAP Files:
+Standard format for saving packet captures
+Used by various tools for exporting/importing network traffic
+
+Scenario for Analysis:
+Network Team alerts hunters to unusual traffic
+Hunters analyze PCAP files or perform live captures
+
+Defense-in-Depth:
+Importance of a security monitoring program to detect suspicious activity
+
+Incident Response:
+Hunters may inspect traffic during incidents like security appliance downtime
+
+Infrastructure Understanding:
+Hunters must be familiar with network infrastructure, addressing, rules, etc
+
+Strategic Tapping:
+Knowing where to tap into the network for live captures
+
+Platform Familiarity:
+Hunters (Purple Teamers) should be familiar with both Windows and Linux platforms
+
+Introduction to Tools:
+Brief overview of tools for capturing, filtering, and analyzing network traffic
+
+Live Capture Considerations:
+Confirm intended traffic capture, ensure computing power, and have enough disk space
+
+Port Mirroring:
+Explains port mirroring (SPAN port) and alternatives for network traffic replication
+
+Libpcap and Tools:
+Introduction to libpcap and tools like Wireshark and Tcpdump
+
+Wireshark Configuration:
+Steps for configuring Wireshark, including capture filters and output settings
+
+Other Tools:
+command-line tool with lower resource usage
+
+Berkley Packet Filter (BPF):
+BPF, a filtering language, is mentioned for capturing and filtering packets
+
+وقفلنا جزء الشبكات بشكل مختصر
+--------------------------------------------------------------------------------------------------------
