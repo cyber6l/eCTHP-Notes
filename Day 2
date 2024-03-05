@@ -82,9 +82,7 @@ APT Simulator - fligtsim -atomic redteam -purple sharp -MITRE CALDERA -VECTR
                                                 << 3.3 Threat Sharing and Exchanges >>
 
 
-
                                                   << 3.4 Indicators of Compromise >> 
-
 
 Try again
 Indicators of compromise (IOCs) are “pieces of forensic 
@@ -98,9 +96,7 @@ network.
 مثل OPENIOC developed by FireEye 
 and YARA Tool by uesing for helping malware researchers to identify and classify malware samples
 
-
 وكذا خلصنا الجزء النظري ونخش على العملي
-
 
 نحمل الادوات على اجهزتنا ولا تستخدمها جاهزه ب INE 
 
@@ -119,7 +115,6 @@ Free editor for Indicators of Compromise (IOCs)
 
 اللاب الاول هو سيناريو لاكتشاف وتحليل برمجيات الضارة
 التاسك 1
-
 IOC  
 
 MD5 بنفحص البرامج الضاره ب استخدام الهاش عشان اقدر اجيب تجزئه
@@ -129,21 +124,17 @@ MD5 بنفحص البرامج الضاره ب استخدام الهاش عشان
 الحين بنسوي Test for IOC with the Redline tool by examining the selected set of hashes and strings
 
 التاسك 2
-
 YARA
 
 بنسوي قاعده بيانات يارا ب استخدام الهاش 
 ونختبرها 
 
 التاسك 3
-
 بنراجع القاعده ليه؟ عشان يطلع لنا اشياء بالكشف افضل وتفيدينا
 Using yargen.py كيف؟ 
 
 التاسك 4
-
 والحين نسوي لها RUN مره ثانيه 
-
 
 Key Takeaways:
 
@@ -159,4 +150,26 @@ The example demonstrates how to enhance detection capabilities by refining a YAR
                                                * Threat Hunting Professional *
 
                                                     << 4.1 MITRE ATT&CK >>
+ 
+MITRE ATT&CK ذا الشابتر يتكلم عن كيف تفهم التهديدات او الهجمات وكيف تكتشفها وعشان كذا عندنا اطار عمل او خدمه
+
+وش فايدته ؟ يصنف لك التكيك والتقنيه الي صارت لثغره معنيه وتقارير واقتراحات كيف تأتمتها 
+https://attack.mitre.org/
+
+                                             << 4.2 Data Collection and Analysis >>
+
+"جا وقت انك تجمع البيانات الان ولكن حدد المطلوبه والي تفيدك بس " من بغا كل شيء ما اخذ شيء
+
+host and network data طيب وش البيانات الي اخذه او اركز عليها نوعين ب
+push (log forwarding), pull (remote collection), or a mix of both وش الطرق للجمع البيانات ذي ؟ 
+ولازم تتاكد برضو انها موثوقه ومتاحه
+
+خلصنا تجميع الان وندخل على التحليل
+كيف تحلل البيانات؟ 
+استخدم أنظمة SIEM (مثل ELK وSplunk) للبحث عن البيانات وتجميعها وتصفيتها وضمها لاستخراج معلومات مفيدة
+
+وان كان ودك مع اني اعرف انك ما تحب الاحصاء تستخدم التجميع الاحصائي
+ا(العدد، المجموع، المتوسط، التكرار) لتحديد الأنماط غير الطبيعيه
+
+                                              << 4.3 Hunting Hypothesis and Methodology >>
 
