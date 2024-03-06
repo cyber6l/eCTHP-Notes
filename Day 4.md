@@ -18,7 +18,7 @@
 
 ![OIP](https://github.com/cyber6l/eCTHP/assets/131306259/622f4f10-b1fd-402e-91fc-04e808f326c0)
 
-###### الهيدر عندي ب TCP So Complex
+###### الهيدر ب TCP So Complex
 
 ![tcpheader](https://github.com/cyber6l/eCTHP/assets/131306259/35110b9a-9c1e-4feb-81de-44293bbc087d)
 
