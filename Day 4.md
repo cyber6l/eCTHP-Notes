@@ -27,8 +27,7 @@
 	والاتصال برضو بتكون سيء زي البث لمن يقطع عليك والخ 
 	ومافي هاند تشك
 
-![[Pasted image 20240306182838.png]]
-
+<img width="464" alt="Screenshot 2024-03-06 182818" src="https://github.com/cyber6l/eCTHP/assets/131306259/dff5aec5-6f17-49da-b1fc-cb528fd137a8">
 ###### الهيدر ب UDP so cute *_*
 
 ![slide_4](https://github.com/cyber6l/eCTHP/assets/131306259/090c31e7-dca7-4dc8-987c-5c4b7c939f42)
