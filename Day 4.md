@@ -19,6 +19,8 @@
 ###### الهيدر عندي ب TCP So Complex
 
 ![[tcpheader.jpg]]
+ ![image](https://github.com/fs4xz/Threat-Hunting/assets/83160116/258bf223-f5b2-4ce5-b9f9-ed750fc8fc2f)
+
 
 
 	UDP (User Datagram Protocol) Unlike TCP, it is an unreliable and connectionless protocol. So, there is no need to establish a connection before data transfer
