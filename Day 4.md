@@ -18,7 +18,7 @@
 
 ###### الهيدر عندي ب TCP So Complex
 
-![[tcpheader.jpg]]
+![tcpheader](https://github.com/cyber6l/eCTHP/assets/131306259/35110b9a-9c1e-4feb-81de-44293bbc087d)
 
 
 
