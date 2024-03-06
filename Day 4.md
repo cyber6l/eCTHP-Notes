@@ -14,7 +14,7 @@
 | Smart TCP attacks (usage of different flags)                              |                                  |
 | Single host to multiple ports or single host to multiple nodes (scanning) |                                  |
 
-![[OIP.jpeg]]
+![OIP](https://github.com/cyber6l/eCTHP/assets/131306259/622f4f10-b1fd-402e-91fc-04e808f326c0)
 
 ###### الهيدر عندي ب TCP So Complex
 
@@ -31,7 +31,7 @@
 
 ###### الهيدر ب UDP so cute *_*
 
-![[slide_4.jpg]]
+![slide_4](https://github.com/cyber6l/eCTHP/assets/131306259/090c31e7-dca7-4dc8-987c-5c4b7c939f42)
 
 ### وكذا خلصنا السكشن 4
 
@@ -40,7 +40,7 @@
 	وش فايدته وايش هو 
 	DHCP (Dynamic Host Configuration Protocol) that assigns and manages IP addresses for devices on a network, making it easier for them to connect and communicate without manual configuration.
 
-![[DHCP-header1-1-1024x549 1.png]]
+![DHCP-header1-1-1024x549](https://github.com/cyber6l/eCTHP/assets/131306259/c53491cb-2d94-4430-bb9f-a179fb61b150)
 
 
 - Automates IP address assignment.
@@ -64,8 +64,7 @@
 • DNS traffic normally uses UDP on port 53
 • DNS traffic should go to DNS servers only
 
-![[OIP (1).jpeg]]
-
+![OIP (1)](https://github.com/cyber6l/eCTHP/assets/131306259/910e75af-e032-4b86-8e52-de2dc8576326)
 |Normal DNS Traffic|Suspicious DNS Traffic|
 |---|---|
 |Port 53, UDP|UDP Traffic on port 53 but using TCP instead of UDP|
