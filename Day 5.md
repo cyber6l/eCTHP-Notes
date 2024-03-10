@@ -55,7 +55,7 @@ This provides a more flexible approach to identifying potential threats
 
 Can be downloaded from  [GitHub - Neo23x0/Loki: Loki - Simple IOC and YARA Scanner](https://github.com/Neo23x0/Loki)
 
-###### What is a NeoIP ?
+###### What is NeoIP ?
 *Assist in the detection of hidden web shell code.*
 
 	 NeoPI is a Python script designed for the purpose of detecting obfuscated and encrypted content within text or script files. The tool employs a variety of statistical methods to analyze the content and identify patterns indicative of obfuscation or encryption techniques.
@@ -78,7 +78,7 @@ Note: NeoPI will produce an output based on the following:
 • Top 10 SUPER-signature match counts  • Top cumulative ranked files
 
 
-###### What is a BackdoorMan
+###### What is BackdoorMan
 
 	 Users can use BackdoorMan by providing a target destination, and the toolkit will analyze the PHP files within that location. It employs various methods and signatures to identify patterns commonly associated with malicious scripts, including backdoors and shells.
 
@@ -90,7 +90,7 @@ Can be downloaded from [GitHub - cys3c/BackdoorMan: BackdoorMan is a toolkit tha
 Additional functions that the script has flagged
 • exec • system • passthru • base64_decode
 
-###### What is a PHP-Malware-Finder ?
+###### What is PHP-Malware-Finder ?
 
 	 is a security tool crafted to identify and flag potentially malicious PHP scripts within a specified directory or web application. It aims to assist system administrators, developers,etc
 
@@ -99,7 +99,7 @@ Users can run PHP-Malware-Finder by providing the target directory or path conta
 
 Can be downloaded from [GitHub - nbs-system/php-malware-finder](https://github.com/nbs-system/php-malware-finder)
 
-###### What is a unPHP ?
+###### What is unPHP ?
 
 	unPHP is a web-based service designed to deobfuscate and analyze PHP code. It helps developers and security professionals understand and recover the original, readable PHP code from obfuscated or encoded versions.
 
@@ -122,7 +122,7 @@ Usage :
 
 Can be downloaded from [UnPHP - The Online PHP Decoder](https://www.unphp.net/)
 
-######  What is a Web Shell Detector ?
+######  What is Web Shell Detector ?
 
 	 is a security tool designed to identify the presence of malicious web shells on a server. Web shells are scripts or code snippets that are illicitly uploaded to a web server, allowing unauthorized access and control.
 
