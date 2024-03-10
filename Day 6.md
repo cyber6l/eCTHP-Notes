@@ -7,7 +7,9 @@
 • Is it running under the proper SID? ,etc..
 
 such as this snapshot of processes running on a Windows system (VM)
+
 <img width="211" alt="Screenshot 2024-03-10 184815" src="https://github.com/cyber6l/eCTHP/assets/131306259/46bedcc6-9220-4d1b-97e8-44d5c92f4b05">
+
 • Name • Purpose • Executable path • Parent process • SID
 
 #### What is smss.exe ?
