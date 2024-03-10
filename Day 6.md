@@ -2,8 +2,9 @@
 
 # << 1.2 Windows Processes >>
 
- عندنا عوامل رئيسيه
-   to detect if they are the legitimate core processes : 
+We have key factors
+
+ to detect if they are the legitimate core processes : 
 • Is it running out of the expected path?
 • Is it spelled correctly?
 • Is it running under the proper SID? ,etc..
