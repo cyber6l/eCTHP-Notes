@@ -18,7 +18,7 @@ web server of interest:
 3. RFI (Remote File Inclusion) or LFI (Local File Inclusion)
 4. incorrect configurations on the web server
 such as 
-![[13 1.jpg]]
+![13](https://github.com/cyber6l/eCTHP/assets/131306259/2b894599-f1fb-4f44-a6c1-ce1fc8772f8e)
 
 امم طيب وش يفيدني او بالاخص كيف ابحث عن hunt for web ?
 
@@ -85,11 +85,10 @@ Note: NeoPI will produce an output based on the following:
 Can be downloaded from [GitHub - cys3c/BackdoorMan: BackdoorMan is a toolkit that helps you find malicious, hidden and suspicious PHP scripts and shells in a chosen destination.](https://github.com/cys3c/BackdoorMan)
 
  2 functions flagged in this particular PHP file:
-• php_uname • popen ![[Pasted image 20240310142800.png]]
+• php_uname • popen <img width="451" alt="Screenshot 2024-03-10 142633" src="https://github.com/cyber6l/eCTHP/assets/131306259/389db085-d162-44b9-bcee-2c3372898633">
 
 Additional functions that the script has flagged
 • exec • system • passthru • base64_decode
-![[Pasted image 20240310142858.png]]
 
 ###### What is a PHP-Malware-Finder ?
 
@@ -290,14 +289,13 @@ To download [ExifTool by Phil Harvey](https://exiftool.org/)
 		open PCAP again and see if we can tell what kind of web shells were being used
 		طف وشغل النيتورك مانير مره ثانيه ورح لل الملفات تاب
 		
-		![[Pasted image 20240310160719.png]]
+<img width="562" alt="Screenshot 2024-03-10 160716" src="https://github.com/cyber6l/eCTHP/assets/131306259/4b713337-587e-4469-98c8-380a8e52cb5e">
 	 Interesting the file called c99_locus7s[2].txt  تم القفط c99
 	لحد ما تحصل شي ثاني اذا ما حصلت غير الفلتره c99 بتوقف لا كمل ندور يلا نفلتر على  
 	 shell and locus7s جرب تفلتر ب 
 	 بس هيه لا تنسى تضيفها  
 							 
-							![[Pasted image 20240310161529.png]]
-	 
+<img width="129" alt="Screenshot 2024-03-10 161526" src="https://github.com/cyber6l/eCTHP/assets/131306259/ebf97c5a-cb4d-4815-a393-f2ce41c72c8f">	 
 
 		الحين نرجع للقرش المتوحش
 		Load the الاوللل PCAP in Wireshark to see what we find. then go to File > Open > Desktop > PCAPs > 1st.
@@ -320,7 +318,7 @@ port 5555 ? An executable
 *Task 2*
 رح نبحث عن txt or php files on IIS server
 نفتح السيرفر ونشغله
-![[Pasted image 20240310170624.png]]
+<img width="631" alt="Screenshot 2024-03-10 170621" src="https://github.com/cyber6l/eCTHP/assets/131306259/82b75fb6-668d-4a78-8c17-593881854888">
 طبعا ما حصلنا php
 بس لقينا txt files for Sh3ll5  &  C99
 
@@ -335,7 +333,7 @@ run of the foocompany directory
 
 	NeoPI >python neopi.py —a c : inetpub\wwwroot\members
 
-![[Screenshot 2024-03-10 171752.png]]
+<img width="535" alt="Screenshot 2024-03-10 171752" src="https://github.com/cyber6l/eCTHP/assets/131306259/0286cf2c-3fe6-4936-b1e0-1c5fe0f5b103">
 حصلنا ذول وش بنسوي الحين
 
 Run NeoPI on folder foocompany
