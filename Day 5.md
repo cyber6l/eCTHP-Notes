@@ -289,13 +289,13 @@ To download [ExifTool by Phil Harvey](https://exiftool.org/)
 		open PCAP again and see if we can tell what kind of web shells were being used
 		طف وشغل النيتورك مانير مره ثانيه ورح لل الملفات تاب
 		
-<img width="562" alt="Screenshot 2024-03-10 160716" src="https://github.com/cyber6l/eCTHP/assets/131306259/4b713337-587e-4469-98c8-380a8e52cb5e">
+
 	 Interesting the file called c99_locus7s[2].txt  تم القفط c99
 	لحد ما تحصل شي ثاني اذا ما حصلت غير الفلتره c99 بتوقف لا كمل ندور يلا نفلتر على  
 	 shell and locus7s جرب تفلتر ب 
 	 بس هيه لا تنسى تضيفها  
 							 
-<img width="129" alt="Screenshot 2024-03-10 161526" src="https://github.com/cyber6l/eCTHP/assets/131306259/ebf97c5a-cb4d-4815-a393-f2ce41c72c8f">	 
+
 
 		الحين نرجع للقرش المتوحش
 		Load the الاوللل PCAP in Wireshark to see what we find. then go to File > Open > Desktop > PCAPs > 1st.
@@ -318,7 +318,7 @@ port 5555 ? An executable
 *Task 2*
 رح نبحث عن txt or php files on IIS server
 نفتح السيرفر ونشغله
-<img width="631" alt="Screenshot 2024-03-10 170621" src="https://github.com/cyber6l/eCTHP/assets/131306259/82b75fb6-668d-4a78-8c17-593881854888">
+
 طبعا ما حصلنا php
 بس لقينا txt files for Sh3ll5  &  C99
 
@@ -333,7 +333,7 @@ run of the foocompany directory
 
 	NeoPI >python neopi.py —a c : inetpub\wwwroot\members
 
-<img width="535" alt="Screenshot 2024-03-10 171752" src="https://github.com/cyber6l/eCTHP/assets/131306259/0286cf2c-3fe6-4936-b1e0-1c5fe0f5b103">
+
 حصلنا ذول وش بنسوي الحين
 
 Run NeoPI on folder foocompany
