@@ -85,7 +85,7 @@ Note: NeoPI will produce an output based on the following:
 Can be downloaded from [GitHub - cys3c/BackdoorMan: BackdoorMan is a toolkit that helps you find malicious, hidden and suspicious PHP scripts and shells in a chosen destination.](https://github.com/cys3c/BackdoorMan)
 
  2 functions flagged in this particular PHP file:
-• php_uname • popen <img width="451" alt="Screenshot 2024-03-10 142633" src="https://github.com/cyber6l/eCTHP/assets/131306259/389db085-d162-44b9-bcee-2c3372898633">
+• php_uname • popen 
 
 Additional functions that the script has flagged
 • exec • system • passthru • base64_decode
