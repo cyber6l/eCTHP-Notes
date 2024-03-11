@@ -69,11 +69,6 @@ such as this snapshot of processes running on a Windows system (VM)
 - **Username:** `NT AUTHORITY\SYSTEM (S-1-5-18)`
 - **Base Priority:** `13` (indicating a relatively high priority level)
 - **Time of Execution:** Within seconds of boot time
-**Executable Path:** `%SystemRoot%\System32\lsm.exe` (likely `C:\Windows\System32\lsm.exe`)
-- **Parent Process:** `wininit.exe`
-- **Username:** `NT AUTHORITY\SYSTEM (S-1-5-18)`
-- **Base Priority:** `8` (indicating a relatively low base priority)
-- **Time of Execution:** Within seconds of boot time
   
 <img width="224" alt="Screenshot 2024-03-10 192326" src="https://github.com/cyber6l/eCTHP/assets/131306259/47ac6430-402f-4c17-8c42-6fc0b5aaafb9">
 
