@@ -12,6 +12,10 @@ searching data and discovering cyber threats.
 
 The hunter : attempts to locate and confirm abnormal activity
 
+Threat Intelligence : involves the collection, analysis, and dissemination of information about current and potential threats to an organization's digital security
+It is used to inform proactive measures, improve defensive strategies
+and support real-time decision-making to protect systems and data from cyber threats and compromises.
+
 reactive vs proactively
 
 reactive : Real-time monitoring like SOC 
@@ -21,7 +25,7 @@ proactively : After Real-time monitoring such as Threat hunting
                                                       << Incident Response >>
 
 
-Incident Response: اي شي مخالف لساسيه الشركه و يؤدي الى threat
+Incident Response: اي شي مخالف لسياسه الشركه و يؤدي الى threat
 
 Incident Response Process: 1- Preparation 2 -detection and analysis 3 -Recovery  4 -Post-Incident Activity      
                                 |-----------------------repetition---------------------------|
@@ -100,8 +104,6 @@ Threat Intelligence can be divided into 3 types:
 1. Strategic: Who, Why, and Where
 2. Tactical: What and When
 3. Operational: How
-
-وبكذا خلصنا وحاولت اني اختصر المعلومات بقدر الامكان وتكون ومراجعه لك 
 
 
 
