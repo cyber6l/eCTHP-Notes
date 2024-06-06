@@ -21,7 +21,7 @@ proactively : After Real-time monitoring such as Threat hunting
 
 Incident Response: اي شي مخالف لسياسه الشركه و يؤدي الى threat
 
-![[Pasted image 20240606190021.png]]
+![Screenshot 2024-06-06 190014](https://github.com/cyber6l/eCTHP/assets/131306259/18224d74-6968-4841-b5ab-88e7b781351e)
 
 Preparation: This phase involves setting up the necessary tools, documentation, and responsibilities to handle incidents effectively. It also includes measures to reduce the likelihood of incidents.
 
