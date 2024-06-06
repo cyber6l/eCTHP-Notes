@@ -30,12 +30,37 @@ Incident Response: اي شي مخالف لسياسه الشركه و يؤدي ا
 Incident Response Process: 1- Preparation 2 -detection and analysis 3 -Recovery  4 -Post-Incident Activity      
                                 |-----------------------repetition---------------------------|
 
+Preparation: This phase involves setting up the necessary tools, documentation, and responsibilities to handle incidents effectively. It also includes measures to reduce the likelihood of incidents.
+
+Detection and Analysis: During this phase, the IR team verifies if a security breach has occurred by analyzing reported symptoms and classifying the situation as an incident if necessary.
+
+Containment, Eradication, and Recovery: In this phase, the team gathers intelligence and creates signatures to identify compromised systems. 
+They then implement countermeasures to neutralize the threat and work to restore systems and data to normal operation.
+
+Post-Incident Activity: This phase involves learning from the incident to enhance the organization’s security posture and prevent future occurrences.
+
                                                         << Risk Assessments >>
 
-What is a risk assessment : process of assessing threats, vulnerabilities, and
-their likelihood of occurring to the organization's assets.
+What is a risk assessment : Risk assessments provide hunters with insights into the systems or processes most likely to be targeted by intruders.
+Hunters need to think like attackers to identify critical targets within a network.
 
- وهنا خلصنا اول شابتر 
+1-Focus Determination 2-Role Distribution
+
+                                                      << Type Threat Hunting >>
+1-Ad-hoc Hunter:
+Multi-role, infrequent hunts.
+Found in organizations without formal security teams.
+
+2-Analyst and Hunter:
+SOC analysts who also hunt.
+Common in small organizations.
+
+3-Dedicated Hunting Team:
+
+Specialized team focused on hunting.
+Typical in large or governmental organizations.
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 
