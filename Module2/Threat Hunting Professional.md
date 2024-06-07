@@ -36,13 +36,15 @@ APT 1 uses two custom utilities to steal emails from their victims:
 - **Hash Values:** Used to verify the authenticity of files but easily changed, hence less reliable.
 - **IP Addresses:** Easily masked through anonymity channels, but blacklisting can disrupt adversaries.
 - **Domain Names:** Dynamic and easily changed; adversaries exploit various techniques for evasion. By using : 
- ![[Pasted image 20240607150609.png]]  IDN Homograph Attack 
-![[Screenshot 2024-06-07 151008.png]]   Punycode
+![Screenshot 2024-06-07 150605](https://github.com/cyber6l/eCTHP/assets/131306259/01c033cd-6fdc-41fe-b316-86ec66f90db3)
+ IDN Homograph Attack 
+![Screenshot 2024-06-07 151008](https://github.com/cyber6l/eCTHP/assets/131306259/2fe1dc9d-8cb9-4efe-aad4-5043b98886e8)
+  Punycode
 
 - **Network/Host Artifacts:** Clues left by adversaries; detecting specific tools forces them to adapt, increasing their workload.
 - **TTPs (Tactics, Techniques, and Procedures):** Represent adversaries' methods; retraining adversaries is costly and challenging, but effective in increasing their operational costs.
 
-![[Pasted image 20240607144703.png]]
+![Screenshot 2024-06-07 144646](https://github.com/cyber6l/eCTHP/assets/131306259/71d322d6-01c9-4053-b32c-2313199aafc3)
 
 
 #### The Cyber Kill Chain: outlines the stages of a cyber attack. In both realms, it denotes the step-by-step progression of an offensive operation.
