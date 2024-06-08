@@ -19,7 +19,7 @@ Techniques describe "how" actions are performed, using specific methods to accom
 Procedures are the detailed steps that implement each technique, outlining the exact process for tasks.
 
 
-*explain how adversaries infiltrate and navigate a network to accomplish their objectives. Understanding TTPs helps in identifying the adversary in future attacks by creating Indicators of Compromise (IOCs).*
+*Understanding TTPs helps in identifying the adversary in future attacks by creating Indicators of Compromise (IOCs).*
 
 What is IOCs ?
 
