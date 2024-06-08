@@ -16,7 +16,7 @@ Threat Intelligence ?
 
 reactive : Real-time monitoring like SOC 
 
-proactively : After Real-time monitoring such as Threat hunting
+proactively : After Real-time monitoring such as Threat hunting 
 
 # Incident Response
 
