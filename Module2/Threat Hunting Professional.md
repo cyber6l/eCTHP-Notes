@@ -1,7 +1,7 @@
 
 What is APT ?
 
-	APTs : Advanced Persistent Threats, refer to organized groups or nation-states equipped with substantial resources and sophisticated infrastructure, enabling them to engage in prolonged and targeted malicious activities with a high degree of expertise and persistence.
+	Skilled hackers sneak into a system, steal data in small bits for a long time, all to stay hidden.
 
 
 What is TTP ?
