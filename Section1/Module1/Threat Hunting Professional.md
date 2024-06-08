@@ -4,7 +4,7 @@ What is APT ?
 	Skilled hackers sneak into a system, steal data in small bits for a long time, all to stay hidden.
 
 
-What is TTP ?
+What is TTP ? 
 
 ### Tactics or Tools
 
