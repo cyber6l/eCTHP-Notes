@@ -52,6 +52,5 @@ SOC analysts who also hunt.
 Common in small organizations.
 
 3-Dedicated Hunting Team:
-
 Specialized team focused on hunting.
 Typical in large or governmental organizations.
