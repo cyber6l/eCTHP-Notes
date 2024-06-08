@@ -6,7 +6,7 @@ What is APT ?
 
 What is TTP ?
 
-### Tactics
+### Tactics or Tools
 
 Tactics explain the "why" behind actions, involving the strategic arrangement of forces to achieve a goal.
 
