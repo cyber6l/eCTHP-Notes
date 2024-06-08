@@ -1,7 +1,7 @@
 
 
 What is Threat Hunting ?
-
+ 
 	Threat hunting is the human-centric process of proactively searching data and discovering cyber threats.
 
 The Hunter ?
