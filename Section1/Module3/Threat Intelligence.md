@@ -6,7 +6,7 @@ Threat Intelligence Reports:
 Entities Issuing Reports:
 
 - FireEye, Verizon, TrustWave, CrowdStrike, Palo Alto Networks, Cylance, and F-Secure.
-
+ 
 FireEye's Role:
 
 - Regularly releases detailed reports and an annual M-Trends report, focusing on specific threat actors and global trends. 
