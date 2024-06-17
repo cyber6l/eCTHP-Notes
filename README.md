@@ -8,7 +8,6 @@
  
  By Talal Alqahtani
 
-<h3 align="center">A passionate frontend developer from India</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -20,7 +19,3 @@
 <p align="left"> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> </p>
 
 
-
- 
-  [<imag_src='https://github.com/cyber6l/Java/assets/131306259/e1a09579-a990-46cb-af47-28f2894efcbb' alt=twitter' height='40'>](https://twitter.com/@cyber6l)
-  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/talal-alqahtani-b757b1269/) 
