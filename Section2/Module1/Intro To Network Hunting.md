@@ -1,10 +1,10 @@
 بالبدايه لازم تعرف تفاصيل هيكليه ال Layering عن Protocols تستعمل مثل TCP-IP , OSI
-![[Pasted image 20240615222634.png]]
-![[Pasted image 20240615222651.png]]
-![[Pasted image 20240615222714.png]]
-![[Pasted image 20240615222729.png]]
-![[Pasted image 20240615222745.png]]
-![[Pasted image 20240615222805.png]]
+![Pasted image 20240615222634](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/55e70cea-905c-46df-bf0d-0a259ba44142)
+![Pasted image 20240615222651](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/66a718f6-2a00-458b-92f3-7d577852b881)
+![Pasted image 20240615222714](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/36bf6354-06e3-4a84-af67-0f24cbb14632)
+![Pasted image 20240615222729](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/f8b90b27-e30e-45bb-bf79-023db3a99be5)
+![Pasted image 20240615222745](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/e56f5126-04db-403b-86df-fc677160f9ea)
+![Pasted image 20240615222805](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/8c790531-d533-41a8-b984-08484356d258)
 
 ### Encapsulation Process
 
