@@ -1,4 +1,10 @@
 بالبدايه لازم تعرف تفاصيل هيكليه ال Layering عن Protocols تستعمل مثل TCP-IP , OSI
+![Pasted image 20240615222634](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/873f5308-16d4-4720-bfff-86e430203fdb)
+![Pasted image 20240615222651](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/fb1b8f1f-e2d0-45cb-85dd-ccf6cce7cd78)
+![Pasted image 20240615222714](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/bab84a47-d287-4e42-b88c-99b8976563db)
+![Pasted image 20240615222729](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/36ef310c-50bf-41c6-aafb-a142b2b38391)
+![Pasted image 20240615222745](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/cff6ceec-0e42-49c1-9e98-81d2ad586268)
+![Pasted image 20240615222805](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/30e886e9-85e1-4d0a-bed6-1f946ee2f24c)
 
 
 ### Encapsulation Process
@@ -38,15 +44,15 @@
     3. B responds with an ARP reply, providing its MAC address to A.
 
 #### TCP uses a 3-way handshake to establish communication between two hosts because the protocol is connection orientated
-![[Pasted image 20240615225933.png]]
+![Pasted image 20240615225933](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/8439dd0a-b1ef-4698-93c4-da408b069397)
 
 #### TCP header
-![[Pasted image 20240615230120.png]]
+![Pasted image 20240615230120](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/cd9fa9b5-525c-4743-9a0e-ea178bf8e39f)
 
 #### UDP don't uses a 3-way handshake because the protocol is connectionless
 
 #### UDP header
-![[Pasted image 20240615230323.png]]
+![Pasted image 20240615230323](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/dec340b8-7ff4-4343-9290-11708408783e)
 
 Some important ports you should know which port they typically communicate on 
 [Common Ports Cheat Sheet: The Ultimate List (stationx.net)](https://www.stationx.net/common-ports-cheat-sheet/)
