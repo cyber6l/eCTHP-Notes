@@ -1,4 +1,5 @@
 بالبدايه لازم تعرف تفاصيل هيكليه ال Layering عن Protocols تستعمل مثل TCP-IP , OSI
+
 ![Pasted image 20240615222634](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/873f5308-16d4-4720-bfff-86e430203fdb)
 ![Pasted image 20240615222651](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/fb1b8f1f-e2d0-45cb-85dd-ccf6cce7cd78)
 ![Pasted image 20240615222714](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/bab84a47-d287-4e42-b88c-99b8976563db)
