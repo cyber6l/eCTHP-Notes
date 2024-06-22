@@ -123,8 +123,9 @@ This proactive approach helps safeguard network integrity and data confidentiali
     
 - **Suspicious TCP:**
     - Multiple SYN requests are sent without receiving an ACK response.
-    ![[Pasted image 20240618165302.png]]
-    ![[Pasted image 20240618165727.png]]
+![Screenshot 2024-06-18 165720](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/98e2abfd-14e1-4c8d-bd71-99cb26722624)   
+![Screenshot 2024-06-18 165246](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/76a3885b-50dd-4407-97fd-9a98710252e3)
+
     
     - This behavior is typical of tools like Nmap, which perform port scanning to detect open ports.
     - Requests are sent from a single port to multiple different ports on the destination device.
@@ -138,8 +139,9 @@ This proactive approach helps safeguard network integrity and data confidentiali
     - Sending numerous SYN requests in a short period is known as a SYN flooding attack, a type of DDOS (Denial of Service) attack.
 - **Connection Refusal:**
     - In some cases, after a SYN and SYN-ACK, an RST (Reset) is sent instead of an ACK, indicating a refusal or termination of the connection. This is typical behavior of scanning tools.
-![[Pasted image 20240618170030.png]]
-![[Pasted image 20240618170052.png]]
+![Screenshot 2024-06-18 165903](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/3b1bdc4c-5749-41ca-b592-63d7437a8418)
+
+![Screenshot 2024-06-18 170050](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/c49171e8-339a-4b32-ab0d-2cd6c323a505)
 
 ### Handling Suspicious Behaviors
 
@@ -180,7 +182,7 @@ This proactive approach helps safeguard network integrity and data confidentiali
 
 ### Detailed DHCP Process:
 
-![[Screenshot 2024-06-18 182845.png]]
+![Screenshot 2024-06-18 182845](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/583e1f74-efa7-4d63-bc76-88625e3845c4)
 
 
 1. **DHCP Discover:**
@@ -201,21 +203,21 @@ This proactive approach helps safeguard network integrity and data confidentiali
 
 #### Normal process
 
-![[Pasted image 20240618190400.png]]
+![Screenshot 2024-06-18 190338](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/30cc5071-1f1f-4de7-bb41-97e0b10e86b8)
   Looking at packet number 1, we see that the device didn't have an IP address and sent a broadcast message to the entire network. The IP 1.1 responded with a DHCP offer, continuing through the DORA process we explained above. This is the correct and expected behavior. 
 #### 1- **DHCP Discover**
-![[Pasted image 20240618190946.png]]
+![Screenshot 2024-06-18 191511](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/f3c34450-b660-41b3-ae8b-c10edb2fc2d0)
 This first frame that is sent by the client as a broadcast to all available servers
 #### 2-**DHCP Offer**
-![[Pasted image 20240618191517.png]]
+![Screenshot 2024-06-22 231402](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/e88003da-070e-4c99-b953-5903aed12233)
 This frame is sent by the server(s) to the client with many details subnet mask. Now, the client can choose the IP address if it gets multiple DHCP offer
 
 #### 3-**DHCP Request**
-![[Pasted image 20240618192848.png]]
+![Screenshot 2024-06-18 192831](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/add2beb4-80cb-4644-86b4-d82c945210fb)
 This frame is sent by the client to the particular server confirming the IP address. It can also request for some more details from the server
 
 #### 4-**DHCP Acknowledgement
-![[Pasted image 20240618193028.png]]
+![Screenshot 2024-06-18 193018](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/e131267a-e7d7-4648-8093-6a1712991a80)
 This is the last frame of the DORA process. It is sent by the server as an acknowledgement
 
 After the DHCP lease time expires, the client needs to send a DHCP renewal frame to extend its IP address lease. The renewal process involves two key exchanges:
@@ -228,7 +230,7 @@ After the DHCP lease time expires, the client needs to send a DHCP renewal frame
     
     - The DHCP ACK frame is the server’s acknowledgment of the renewal request.
     - This ACK is sent as a broadcast frame, confirming the renewal of the client’s IP address.
-![[Pasted image 20240618193316.png]]
+![Screenshot 2024-06-18 193307](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/c9bf4abc-e081-4b1d-8aa5-b23d97e09313)
 
 #### Suspicious process
 
@@ -237,12 +239,14 @@ Everything we've seen so far was the normal DHCP process. Let's see how things l
 - An attacker might impersonate the DHCP server and set up a rogue DHCP server, convincing you it's the real DHCP server. If the attacker succeeds, they perform a man-in-the-middle attack, intercepting all your communications by posing as the legitimate DHCP server. This allows them to monitor everything you do.
     
 -
-![[Pasted image 20240618193823.png]]
+![Screenshot 2024-06-18 193819](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/e44b5d01-1d09-4aa2-8c09-a0c701a272bc)
 
-![[Pasted image 20240618193850.png]]
+![Screenshot 2024-06-18 193847](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/c6c598aa-031d-412b-892a-745e04ec83d2)
 
 
-![[Pasted image 20240618193947.png]]With Wireshark of the rogue DHCP server, you'll see that when the attacker received a discover message, they sent back an offer, initiating a man-in-the-middle attack instead of the original server.
+![Screenshot 2024-06-18 193937](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/13b803ae-4995-480c-be16-e565aa4a458d)
+
+With Wireshark of the rogue DHCP server, you'll see that when the attacker received a discover message, they sent back an offer, initiating a man-in-the-middle attack instead of the original server.
 
 --------------------------------------------------------------------------
 #### DNS (Domain Name System) Traffic
@@ -266,7 +270,7 @@ Everything we've seen so far was the normal DHCP process. Let's see how things l
     - Suspicious traffic might not reach the DNS server, indicating potential malicious activity from another device.
     - You might see numerous DNS queries without corresponding responses, or the reverse, which is abnormal and indicates suspicious behavior.
 
-![[Pasted image 20240618221005.png]]
+![Screenshot 2024-06-18 220957](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/d6e2bc5a-9dab-4171-89ab-29f3a8bd0070)
 
 | Feature                  | Normal DNS Traffic                          | Suspicious DNS Traffic                                |
 | ------------------------ | ------------------------------------------- | ----------------------------------------------------- |
@@ -284,17 +288,20 @@ I will explain some differences between them in Wireshark.
 #### DNS Transaction ID 
  A 16-bit field used to uniquely identify a specific DNS transaction. It is generated by the originator of the message and is included in both the request and response messages. This ID allows the DNS client to match responses with the corresponding requests.
 
-![[Pasted image 20240619234933.png]]
+
+
+<img width="812" alt="Screenshot 2024-06-19 234910" src="https://github.com/cyber6l/eCTHP-Notes/assets/131306259/8bf7b2a6-add2-4fc3-849f-9b340ab3cd7a">
 
 #### Normal DNS
 
-![[Pasted image 20240619234841.png]]
+<img width="818" alt="Screenshot 2024-06-19 234802" src="https://github.com/cyber6l/eCTHP-Notes/assets/131306259/bd8a7272-ab58-4b8c-8c39-8ac0efaa3767">
+
 Here it tells you that the connection was established normally because the client device reached the server on port 53 using the UDP protocol, so the connection is valid
-![[Pasted image 20240619235616.png]]
+<img width="614" alt="Screenshot 2024-06-19 235506" src="https://github.com/cyber6l/eCTHP-Notes/assets/131306259/45eeb48b-d7c9-4b85-b45d-b8274fb65685">
 Here you will find the response to the query you sent, and you will see the answer to the query you sent to the server
 
-![[Pasted image 20240619235236.png]]
-Look here as well, you will find that the DNS traffic is normal, and each DNS query has a corresponding DNS response
+
+<img width="612" alt="Screenshot 2024-06-19 235030" src="https://github.com/cyber6l/eCTHP-Notes/assets/131306259/ec68af87-d24d-4d50-ba51-54d033fffcff">Look here as well, you will find that the DNS traffic is normal, and each DNS query has a corresponding DNS response
 ##### $ Everything is clear and simple in normal traffic $
 
 
@@ -313,10 +320,10 @@ Full Zone Transfer (AXFR): This type of transfer replicates the entire zone file
 Incremental Zone Transfer (IXFR): This type of transfer only replicates the changes (deltas) since the last transfer, rather than the entire zone. It is more efficient and reduces the amount of data transferred over the network.
 
 
-![[Pasted image 20240620001813.png]]
+<img width="396" alt="Screenshot 2024-06-20 001747" src="https://github.com/cyber6l/eCTHP-Notes/assets/131306259/51c9ecaa-c42e-43e4-8f19-76eb532bb3a7">
 We will find TCP being actively used. This is because the request sent for zone transfer aims to gather all IP addresses, resulting in large traffic volume. Therefore, TCP is used contrary to UDP.
 
-![[Pasted image 20240620002026.png]]
+![Screenshot 2024-06-20 002021](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/530a6d29-5cf5-4852-8ba9-dd29f463d884)
 
 In contrast, here you'll find when it sends traffic, the size is small relative to the connection, aiming for just one device's IP. Everything seems normal, unlike TCP, which often carries large traffic, raising suspicion.
 
@@ -325,7 +332,7 @@ As a threat hunter, you'd scrutinize any TCP traffic. If it's between servers, t
 ### *DNS Tunneling*
  is used for exfiltrating data. After carrying out the initial attack and exploiting vulnerabilities, the attacker performs data exfiltration. This process is similar to what occurs frequently on the Dark Web, where the attacker possesses data that cannot be easily copied or pasted due to firewall restrictions. To circumvent this, the attacker creates tunnels or channels within DNS traffic, concealing the data within these channels and extracting it covertly.
 
-![[Pasted image 20240620002548.png]]
+![Screenshot 2024-06-20 002545](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/59d77969-cf4e-41e0-9a86-3fe59fc1b67a)
 
 --------------------------------------------------------------------------
 
@@ -340,7 +347,7 @@ HTTP uses a request and reply system:
 - **DELETE Request**: To delete data on another computer.
 
 Each request and reply has a status code that indicates the server's response :
-![[Pasted image 20240620111437.png]]
+![Screenshot 2024-06-20 111431](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/c96d627b-7214-4bfc-81c7-27f598662dcd)
 You will find that some of the codes sent by the destination indicate its status. For example, if you open your browser and type in google.com and the Google page appears, it means you sent a GET request to Google. The server received it and replied with a status code 200, meaning it approved your request to browse Google and opened the page for you. Similarly, every request has a specific reply with its status code describing a particular state. If you are adding a post or writing a comment on X , you will receive a status code 201 from the server.
 
 | **Aspect**                | **Normal HTTP Traffic**                         | **Suspicious HTTP Traffic**                                            |
@@ -442,8 +449,8 @@ SQL Injection Attempt
 `GET /index.php?id=1' OR '1'='1 HTTP/1.1 Host: example.com User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)`
 
 - **Indicator**: Unusual URL parameter with SQL injection payload.
-![[Pasted image 20240622212917.png]]
-![[Pasted image 20240622213033.png]]
+![Screenshot 2024-06-22 212911](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/126940fd-bdd3-45d4-9b66-8281d221c660)
+![Screenshot 2024-06-22 213032](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/9b323fb0-09df-4ab7-a771-b4e757c781a1)
 
 #### HTTPS Traffic
 
