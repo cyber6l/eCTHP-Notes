@@ -283,6 +283,7 @@ With Wireshark of the rogue DHCP server, you'll see that when the attacker recei
 | **Query/Response Ratio** | Each query has a corresponding response     | Multiple queries without responses or vice versa      |
 | **Use Case**             | Resolving domain names to IP addresses      | Potential data exfiltration or unauthorized access    |
 | **Zone Transfers**       | Typically server to server                  | Client attempting zone transfers                      |
+
 I will explain some differences between them in Wireshark.
 
 #### DNS Transaction ID 
