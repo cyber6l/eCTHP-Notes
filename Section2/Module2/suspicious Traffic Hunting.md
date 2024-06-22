@@ -6,8 +6,7 @@ ARP is fundamental in network communications, operating at Layer 2 of the OSI mo
 
 - **Normal ARP Traffic**: In a typical network environment, ARP broadcasts occur at a reasonable rate from both clients and servers. These transmissions involve ARP Requests and corresponding Replies (Opcode 1 and 2 respectively) to resolve IP addresses to MAC addresses.
 
-![[Screenshot 2024-06-17 222745.png]]
-
+![Screenshot 2024-06-17 222745](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/0bca275b-8419-438f-a4b2-8b18703b5367)
     
 - **Suspicious ARP Traffic**: Suspicious behavior includes excessive ARP broadcasts within a short timeframe, often indicative of scanning activities like those conducted by tools such as Nmap. Additionally, instances where the same MAC address is associated with different IP addresses suggest ARP spoofing, a potential security threat.
 
@@ -15,10 +14,12 @@ for more [(PDF) ARP Spoofing- Analysis using Wireshark on 2 different OS LINUX a
 
 #### here are the images that were referenced in the TryHackMe Wireshark Traffic Analysis challenge:
 #### Normal
-![[Pasted image 20240617224413.png]]
+![Screenshot 2024-06-17 224359](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/10e5fe91-213c-4f83-b9b9-adb7bde767ea)
+
 Proper ARP Request followed by a single ARP Reply with correct MAC address mapping
 #### Suspicious
-![[Screenshot 2024-06-17 224605.png]]
+![Screenshot 2024-06-17 224605](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/537786ff-7c81-4b12-8425-562a8451c7db)
+
 Multiple ARP Requests with incrementing IP addresses and minimal time intervals, suggesting systematic scanning or reconnaissance by malicious actors.
 Or sometimes ARP Spoofing attack by looking for a MAC address being used by two different IP addresses
 
@@ -45,12 +46,12 @@ This proactive approach helps safeguard network integrity and data confidentiali
 2. **Ping:**
     
     - The `ping` command utilizes ICMP to check the availability of a destination device on a network. When you `ping` a device, ICMP sends an echo request and waits for an echo reply. If a reply is received, the device is active and reachable.
-     ![[Pasted image 20240618143710.png]]
+![Screenshot 2024-06-18 143650](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/6e75779d-aa2c-4ade-9b75-fca2f77f1871)
      
 3. **Traceroute:**
     
     - `Traceroute` uses ICMP to trace the path packets take to reach a destination IP address. It helps identify the various gateways (routers) the packets pass through on their journey to the target.
-    ![[Pasted image 20240618143835.png]]
+![Screenshot 2024-06-18 143828](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/91885733-7ef6-4ddb-9f18-5010aa0f7507)
     
 
 **ICMP Packet Types:**
@@ -66,7 +67,7 @@ This proactive approach helps safeguard network integrity and data confidentiali
 2. **Unusual Packet Sizes:**
     
     - Typically, ICMP packets have a standard length. If you notice packets with unusually large sizes (e.g., 1000 bytes instead of the usual 100 bytes), it might be a sign of an attack, such as data exfiltration disguised as ICMP traffic.
-    ![[Pasted image 20240618144910.png]]
+![Screenshot 2024-06-18 144857](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/0de2453e-cfd8-43f9-b422-4a4cc100db80)
 3. **Unusual ICMP Types/Codes:**
     
     - Be aware of uncommon ICMP types and codes. For example, a timestamp request (Type 13) should only occur between servers. If a normal PC sends such requests, it could indicate a reconnaissance attempt by an attacker.
@@ -76,17 +77,19 @@ This proactive approach helps safeguard network integrity and data confidentiali
 1. **Smurf Attack:**
     
     - This is a type of DDoS attack where the attacker spoofs the victim's IP address and sends ICMP echo requests to a network's broadcast address. All devices in the network respond to the victim, overwhelming it with traffic.
-    ![[Pasted image 20240618153207.png]]
+<img width="535" alt="Screenshot 2024-06-18 153132" src="https://github.com/cyber6l/eCTHP-Notes/assets/131306259/5786c5a7-fadd-4338-aa96-35f1c1cf86dd">
     
 	
 2. **ICMP Tunneling:**
     
-    - Attackers may encapsulate other types of traffic (e.g., HTTP) within ICMP packets to bypass firewalls and IDS/IPS systems. Tools like `ptunnel` can be used for this purpose. Indicators of ICMP tunneling include varying packet sizes and specific data sequences within the packets.![[Screenshot 2024-06-18 154315.png]]
+    - Attackers may encapsulate other types of traffic (e.g., HTTP) within ICMP packets to bypass firewalls and IDS/IPS systems. Tools like `ptunnel` can be used for this purpose. Indicators of ICMP tunneling include varying packet sizes and specific data sequences within the packets.
+      ![Screenshot 2024-06-18 154315](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/6f039f05-2d79-4d85-a1da-55deda53b9b9)
+
     
 3. **ICMP Redirect Abuse:**
     
     - An attacker can send a fake ICMP redirect message to a device, causing it to route its traffic through a malicious gateway controlled by the attacker. This can be used for man-in-the-middle attacks.
-    ![[Pasted image 20240618145817.png]]
+<img width="761" alt="Screenshot 2024-06-18 145600" src="https://github.com/cyber6l/eCTHP-Notes/assets/131306259/5c4aebb2-f81f-4b01-b6bd-f3e51b662bd1">
 
 **Detection and Mitigation:**
 
@@ -110,13 +113,13 @@ This proactive approach helps safeguard network integrity and data confidentiali
 - **Handshake Process:**
     - Before sending any data, TCP performs a process called the handshake to ensure the connection is successfully established.
     - This process involves sending a SYN from the source, receiving a SYN-ACK from the destination, and then confirming the connection with an ACK from the source.
-![[Pasted image 20240618161817.png]]
+![Screenshot 2024-06-18 161812](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/4f345058-0572-4cc0-8092-910f7d29a455)
 
 ### Normal TCP vs. Suspicious TCP
 
 - **Normal TCP:**
     - The connection process starts with sending a SYN, followed by a SYN-ACK response, and finally an ACK to establish the connection.
-    ![[Pasted image 20240618162508.png]]
+![Screenshot 2024-06-18 162502](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/4c2c46ac-ae13-4380-82ff-cadc2ba39eb7)
     
 - **Suspicious TCP:**
     - Multiple SYN requests are sent without receiving an ACK response.
