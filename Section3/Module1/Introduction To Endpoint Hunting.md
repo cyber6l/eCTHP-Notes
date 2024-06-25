@@ -9,7 +9,7 @@ When analyzing Windows core processes for legitimacy, it's important to verify s
 
 `smss.exe` is a critical Windows core process responsible for managing sessions on a Windows system. Understanding its characteristics is essential for ensuring system integrity and detecting potential security issues
 
-![[Pasted image 20240625133301.png]]
+![Screenshot 2024-06-25 133253](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/af68eb69-afdb-4d20-9d9b-c365441b44f5)
 
 #### **Attributes of `smss.exe`**
 
@@ -39,7 +39,9 @@ System
 `csrss.exe` is an essential Windows core process that plays a crucial role in the management of processes and threads, as well as providing the Windows API to other processes
 
 #### **Attributes of `csrss.exe`**
-![[Pasted image 20240625133330.png]]
+
+![Screenshot 2024-06-25 133323](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/3249b060-4c8c-441f-a440-c41fadb7f2b9)
+
 **Description:**
 
 This process is an essential subsystem that must be running at all times. It is responsible for console windows process/thread creation and thread deletion.
@@ -64,7 +66,7 @@ Malware authors can disguise their malware to appear as this process by hiding i
 #### Analysis of `Winlogon.exe` ( Windows Logon Process )
 `winlogon.exe` is a crucial system process responsible for handling secure user interactions during the login process. It manages user authentication, loading user profiles, and several other critical tasks. Ensuring the legitimacy of `winlogon.exe` is vital for system security
 
-![[Pasted image 20240625142937.png]]
+![Screenshot 2024-06-25 142933](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/a145049f-d405-4389-ae3d-3b2c59a7aa8c)
 
 #### **Attributes of `Winlogon.exe`
 
@@ -90,7 +92,7 @@ The abuse within this process often comes within the different components of the
 ### Analysis of `wininit.exe` (Windows Initialization Process)
 `wininit.exe` is a core Windows system process responsible for initializing the user-mode side of the Win32 subsystem. This includes starting services and initializing system drivers. Ensuring the legitimacy of `wininit.exe` is essential for maintaining system integrity
 
-![[Pasted image 20240625142620.png]]
+![Screenshot 2024-06-25 142617](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/149ae02c-9f3f-49ba-82af-0098542ec797)
 
 #### **Attributes of `wininit.exe`**
 
@@ -151,7 +153,9 @@ Local System
 Ensure only one instance of `lsm.exe` is running. Verify `lsm.exe` is started by `wininit.exe`. Confirm `lsm.exe` runs from `%SystemRoot%\System32\lsm.exe`. Watch for misspelled variants or suspiciously similar processes.
 
 ### Analysis of `lsass.exe` (Local Security Authority Subsystem Service)
-![[Pasted image 20240625165506.png]]
+
+![Screenshot 2024-06-25 165459](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/b683f7a1-c7a2-44fc-b182-bc92f847aafd)
+
 #### **Attributes of `lsass.exe`**
 
 **Description:**
@@ -193,7 +197,8 @@ Ensure only one instance of `lsass.exe` is running. Validate `lsass.exe` is spaw
 
 ## **Services.exe**
 
-![[Pasted image 20240625170021.png]]
+![Screenshot 2024-06-25 170016](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/c1062bac-b25d-4d1b-a45c-e0a1e155aa69)
+
 **Description:**
 
 services.exe launches the Services Control Manager which is primarily responsible for handling system services including starting and ending services, and interacting with services. Services are defined in HKLM\SYSTEM\CurrentControlSet\Services. “services.exe” is the parent process of svchost.exe, dllhost.exe, taskhost.exe,spoolsv.exe, etc.
@@ -226,11 +231,10 @@ There must only be 1 instance of “services.exe”. This is a protected process
 
 The generic host process for Windows Services. It is used for running service DLLs. Windows will run multiple instances of svchost.exe, each using a unique “-k” parameter for grouping similar services. Typical “-k” parameters include BTsvcs, DcomLaunch, RPCSS, LocalServiceNetworkRestricted, netsvcs, LocalService, NetworkService, LocalServiceNoNetwork, secsvcs, and LocalServiceAndNoImpersonation.
 
-![[Pasted image 20240625170208.png]]
-
+![Screenshot 2024-06-25 170153](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/147bd536-817d-4df9-9410-7899abbaf3b5)
 **BTsvcs, DcomLaunch, RPCSS, LocalServiceNetworkRestricted, netsvcs, LocalService, NetworkService, LocalServiceNoNetwork, secsvcs, and LocalServiceAndNoImpersonation.**
 
-![[Pasted image 20240625170233.png]]
+![Screenshot 2024-06-25 170231](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/bf732bb2-9d2a-40c8-aa2a-3ab1afcf2846)
 
 **Image Path:** 
 
@@ -263,7 +267,7 @@ This process can be used to launch malicious services (malware installed as a se
 
 ### Analysis of `taskhost.exe`
 
-![[Pasted image 20240625170759.png]]
+![Screenshot 2024-06-25 170755](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/74141e2c-73fe-43b9-9f53-e12d82ced3ab)
 
 **Description:**
 
@@ -287,7 +291,8 @@ Varies based on the context in which it is executed, often under the context of 
 
 ### Analysis of `explorer.exe`
 
-![[Pasted image 20240625171040.png]]
+![Screenshot 2024-06-25 171038](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/636c315d-172c-45e0-abd4-7aeabf1ae9ed)
+
 **Description:**
 
 `explorer.exe` is a fundamental Windows process responsible for managing the graphical user interface (GUI) and providing the desktop environment. It allows users to interact with files, folders, and applications through the Windows Explorer interface.
