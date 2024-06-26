@@ -51,11 +51,11 @@ Generated log file
 
 Moreover, the tool can perform hard and soft filename indicator checks using regular expressions, meaning it examines all the files on your system to detect anything suspicious.
 
-![Pasted image 20240623231537](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/8d49c1e8-df81-4354-8985-0ef74f7d7b3f)
+![Pasted image 20240623231513](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/bcae3e97-0610-4e7c-9b6f-2375dcc0af2f)
 
 Loki detected suspicious objects here
 
-![Pasted image 20240623232407](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/01857ddc-4e92-4ce3-8e6b-172078d3cef0)
+![Pasted image 20240623231537](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/8d49c1e8-df81-4354-8985-0ef74f7d7b3f)
 
 ##### NeoPI
 
@@ -63,7 +63,8 @@ This is a Python script designed to uncover obfuscated content, meaning it can d
 
 [GitHub - CiscoCXSecurity/NeoPI](https://github.com/CiscoCXSecurity/NeoPI)
 
-![Pasted image 20240623232628](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/06469c56-26f1-4502-86af-2e3b6f9d361c)
+
+![Pasted image 20240623232407](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/01857ddc-4e92-4ce3-8e6b-172078d3cef0)
 
 
 Here’s how NeoPI works:
@@ -71,7 +72,7 @@ Here’s how NeoPI works:
 - NeoPI operates through a command-line interface.
 - It scans a specified folder on the web server
 - The tool generates a report listing suspicious files. As a threat hunter, you can then perform a detailed investigation on these flagged files. The report will highlight the top 10 files that look suspicious (IC 10 top files), along with a list of files that are deemed safe.
-![[Pasted image 20240623232628.png]]
+![Pasted image 20240623232628](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/06469c56-26f1-4502-86af-2e3b6f9d361c)
 Detailed steps and features:
 
 	- NeoPI identifies the top 10 longest files by size. It flags larger PHP files as potentially suspicious because larger files may contain web shells. This is a prompt for you to investigate these files further.
