@@ -32,7 +32,7 @@ To download https://github.com/tennc/webshell/blob/master/php/PHPshell/%E3%80%90
 - **Detection**: WAF and antivirus programs use signature databases to detect malware. Skilled attackers modify web shell signatures to evade detection
 ---
 
-#### Hunting Tools\
+#### Hunting Tools
 
 The first tool we will mention here is Simple LOKI. This is a simple tool that helps identify IOCs, which are Indicators of Compromise, signs of malware presence on your device. This tool scans files or folders on the web server and highlights any indicators suggesting the presence of a web shell
 https://github.com/Neo23x0/Loki
@@ -45,7 +45,8 @@ The tool works by searching for IOCs on your system and providing alerts. It sca
 MD5, SHA1, and SHA256 
 ![Pasted image 20240623231250](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/781dfd41-9426-4a65-babe-25ab8a2fcef1)
 Generated log file
-![Pasted image 20240623231513](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/bcae3e97-0610-4e7c-9b6f-2375dcc0af2f)
+![Pasted image 20240623231314](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/ebe63517-c22b-4447-b1e7-25534e1d2deb)
+
 
 
 Moreover, the tool can perform hard and soft filename indicator checks using regular expressions, meaning it examines all the files on your system to detect anything suspicious.
