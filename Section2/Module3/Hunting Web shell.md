@@ -9,7 +9,8 @@
 - **Execution Methods**: Common methods for deploying a web shell include XSS (Cross-Site Scripting), RFI (Remote File Inclusion), SQL Injection, and LFI (Local File Inclusion). Misconfigurations in the web server can also be exploited
     
 - **Examples**: Notable web shells used in past attacks include C99
-![[Screenshot 2024-06-23 224937.png]]
+  
+![Pasted image 20240623225004](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/5846f423-e69e-47e2-8a7e-27d244e4b4f3)
 
 To download https://github.com/phpwebshell/c99shell
 
@@ -18,13 +19,15 @@ To download https://github.com/b374k/b374k
 
 -   R57
 
-![[Screenshot 2024-06-23 225452.png]]
+![Pasted image 20240623225454](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/5b671553-eab7-41de-898b-62a97dfc1c73)
 
 To download https://github.com/tennc/webshell/blob/master/php/PHPshell/%E3%80%90r57%E3%80%91/r57.php
 
 - Each varies based on the server's supported services and configurations
     
-- **Bypassing Security**: Advanced attackers bypass Web Application Firewalls (WAF) and antivirus software by obfuscating the web shell's code or disguising it within other files to avoid detection![[Pasted image 20240623225817.png]]
+- **Bypassing Security**: Advanced attackers bypass Web Application Firewalls (WAF) and antivirus software by obfuscating the web shell's code or disguising it within other files to avoid detection
+  ![Pasted image 20240623225817](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/4c1656f3-61af-4f93-8ccb-0423966bb2e3)
+
     
 - **Detection**: WAF and antivirus programs use signature databases to detect malware. Skilled attackers modify web shell signatures to evade detection
 ---
@@ -34,23 +37,24 @@ To download https://github.com/tennc/webshell/blob/master/php/PHPshell/%E3%80%90
 The first tool we will mention here is Simple LOKI. This is a simple tool that helps identify IOCs, which are Indicators of Compromise, signs of malware presence on your device. This tool scans files or folders on the web server and highlights any indicators suggesting the presence of a web shell
 https://github.com/Neo23x0/Loki
 
-![[Pasted image 20240623231216.png]]
+![Pasted image 20240623231216](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/da5fd3b4-8685-4c2e-a534-e504d22662bc)
 
 
 The tool works by searching for IOCs on your system and providing alerts. It scans for MD5, SHA1, and SHA256 hashes, checks their signatures, and ensures their security. Additionally, it can use YARA rules, which are included in its base data from the YARA tool, to detect malicious traffic or any malware attempting to infiltrate your network, providing alerts accordingly.
 
 MD5, SHA1, and SHA256 
-![[Pasted image 20240623231250.png]]
+![Pasted image 20240623231250](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/781dfd41-9426-4a65-babe-25ab8a2fcef1)
 Generated log file
-![[Pasted image 20240623231314.png]]
+![Pasted image 20240623231513](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/bcae3e97-0610-4e7c-9b6f-2375dcc0af2f)
 
 
 Moreover, the tool can perform hard and soft filename indicator checks using regular expressions, meaning it examines all the files on your system to detect anything suspicious.
 
-![[Pasted image 20240623231513.png]]
+![Pasted image 20240623231537](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/8d49c1e8-df81-4354-8985-0ef74f7d7b3f)
 
 Loki detected suspicious objects here
-![[Pasted image 20240623231537.png]]
+
+![Pasted image 20240623232407](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/01857ddc-4e92-4ce3-8e6b-172078d3cef0)
 
 ##### NeoPI
 
@@ -58,7 +62,7 @@ This is a Python script designed to uncover obfuscated content, meaning it can d
 
 [GitHub - CiscoCXSecurity/NeoPI](https://github.com/CiscoCXSecurity/NeoPI)
 
-![[Pasted image 20240623232407.png]]
+![Pasted image 20240623232628](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/06469c56-26f1-4502-86af-2e3b6f9d361c)
 
 
 Here’s how NeoPI works:
