@@ -2,7 +2,7 @@
 When analyzing Windows core processes for legitimacy, it's important to verify several key attributes. These attributes help in determining whether the processes are genuine or potentially malicious imitations. Let's break down each factor and its relevance:
 • Name • Purpose • Executable path • Parent process • SID
 
-![image](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/79e05322-b4c0-4ec4-af92-bf156f101ff2)
+![image](https://github.com/cyber6l/eCTHP-Notes/assets/131306259/78a1627f-7b87-4cda-a052-743675b0577c)
 
 
 
