@@ -2,7 +2,7 @@
 1. **Introduction**
     
     - Event logs, initially used for troubleshooting, have become vital for incident response and threat hunting.
-2. **Windows Event Logs**
+2. **Windows Event Logs** 
     
     - Core event logs in Windows include Application, System, and Security logs.
     - Logs capture various events such as application errors, system processes, and security-related actions.
