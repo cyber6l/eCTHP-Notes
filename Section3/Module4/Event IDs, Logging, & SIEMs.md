@@ -12,8 +12,8 @@
     
     - Specific event IDs are crucial for monitoring account logon events, account management, and logon types.
     - Examples of important event IDs include:
-        - 4624: Successful logon
-    
+      
+- 4624: Successful logon    
 - 4625: Failed logon
 - 4634: Successful logoff
 - 4647: User-initiated logoff
@@ -44,6 +44,7 @@
 |9|NewCredentials|Cloned token with new credentials.|
 |10|RemoteInteractive|Logged on via Terminal Services or RDP.|
 |11|CachedInteractive|Logged on with locally stored credentials.|
+
 Logon IDs help track session information across different events.
 4. **Windows Event Forwarding**
     
