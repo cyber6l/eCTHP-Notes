@@ -12,24 +12,41 @@
     
     - Specific event IDs are crucial for monitoring account logon events, account management, and logon types.
     - Examples of important event IDs include:
-4624: Successful logon
-4625: Failed logon
-4634: Successful logoff
-4647: User-initiated logoff
-4648: Logon using explicit credentials
-4672: Special privileges assigned
-4720: Account created
-4768: Kerberos ticket (TGT) requested
-4769: Kerberos service ticket requested
-4771: Kerberos pre-authentication failed
-4776: Attempted to validate credentials
-4778: Session reconnected
-4779: Session disconnected
-4724: An attempt was made to reset an account's password
-4738: A user account was changed
-4740: A user account was locked out
-4765: SID History was added to an account
-4766: An attempt to add SID History to an account failed
+- 4624: Successful logon
+
+- 4625: Failed logon
+
+- 4634: Successful logoff
+
+- 4647: User-initiated logoff
+
+- 4648: Logon using explicit credentials
+
+- 4672: Special privileges assigned
+
+- 4720: Account created
+
+- 4768: Kerberos ticket (TGT) requested
+
+- 4769: Kerberos service ticket requested
+
+- 4771: Kerberos pre-authentication failed
+
+- 4776: Attempted to validate credentials
+
+- 4778: Session reconnected
+
+- 4779: Session disconnected
+
+- 4724: An attempt was made to reset an account's password
+
+- 4738: A user account was changed
+
+- 4740: A user account was locked out
+
+- 4765: SID History was added to an account
+
+- 4766: An attempt to add SID History to an account failed
         
     - Logon types provide context on how an account logged in, such as interactive, network, or service logons.
     - Logon IDs help track session information across different events.
