@@ -50,6 +50,18 @@
         
     - Logon types provide context on how an account logged in, such as interactive, network, or service logons.
     - Logon IDs help track session information across different events.
+
+Logon Type	Logon Title	Description
+2	Interactive	Physically logged on.
+3	Network	Logged on from the network.
+4	Batch	For batch servers/scheduled tasks.
+5	Service	Service started by Service Control Manager.
+7	Unlock	Workstation unlocked.
+8	NetworkCleartext	Network credentials sent in cleartext.
+9	NewCredentials	Cloned token with new credentials.
+10	RemoteInteractive	Logged on via Terminal Services or RDP.
+11	CachedInteractive	Logged on with locally stored credentials.
+      
 4. **Windows Event Forwarding**
     
     - Discusses centralizing logs from multiple machines for better monitoring and analysis.
