@@ -25,4 +25,4 @@ https://docs.splunk.com/Documentation/SplunkCloud/latest/SearchReference/ListOfS
 
 ELK is widely used for monitoring, troubleshooting, and gaining insights from log data in real-time.
 
-![[Pasted image 20240813171323.png]]
+![Screenshot 2024-08-13 171311](https://github.com/user-attachments/assets/f2dc8e23-b2b4-4652-96a2-39892d9bce69)
