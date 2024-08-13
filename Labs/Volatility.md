@@ -25,7 +25,8 @@ This will display help details, showcasing available commands.
 
 Volatility 2 offers a variety of plugins to explore memory dumps. Here are some frequently used ones:
 
-https://blog.onfvp.com/post/volatility-cheatsheet/
+![image](https://github.com/user-attachments/assets/964990a9-210b-4229-b160-b90b9170bc08)
+
 
 #### **pslist**
 
