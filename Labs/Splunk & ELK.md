@@ -20,7 +20,7 @@ I found valuable resources to understand Splunk and ELK through the "Boss of the
  
  https://academy.hackthebox.com/course/preview/understanding-log-sources--investigating-with-splunk
 
-
+--------------------------------------------------------------------
 
 
 **ELK Stack** (Elasticsearch, Logstash, Kibana) is a popular open-source toolset for log and data analysis, similar to Splunk, used for real-time data search, analysis, and visualization.
