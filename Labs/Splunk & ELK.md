@@ -14,6 +14,14 @@ Splunk is widely used for monitoring systems, detecting security threats, and ma
 
 https://docs.splunk.com/Documentation/SplunkCloud/latest/SearchReference/ListOfSearchCommands
 
+I found valuable resources to understand Splunk and ELK through the "Boss of the SOC" (BOTS) series by CyberDefenders. Versions V1, V2, and V3 of this series were particularly helpful in providing real-world scenarios and in-depth analysis on using these tools in a Security Operations Center (SOC)
+
+ && 
+ 
+ https://academy.hackthebox.com/course/preview/understanding-log-sources--investigating-with-splunk
+
+
+
 
 **ELK Stack** (Elasticsearch, Logstash, Kibana) is a popular open-source toolset for log and data analysis, similar to Splunk, used for real-time data search, analysis, and visualization.
 
