@@ -1,3 +1,4 @@
+I found resources like MemLabs on GitHub and CyberDefenders DumpMe incredibly helpful for studying and applying Volatility. These sources provided practical challenges and hands-on experience that enhanced my understanding of memory forensics and how to effectively use Volatility for analyzing memory dumps
 
 ### **1. Get Volatility 2**
 
