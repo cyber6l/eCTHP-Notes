@@ -2,18 +2,19 @@ I found resources like [MemLabs on GitHub](https://github.com/stuxnet999/MemLabs
 
 
 1. Install Python 2
-Download and install Python 2.7 from the [official Python website](https://www.python.org/downloads/release/python-2718/). Follow the installation instructions for your operating system.
+Download and install Python 2.7 from the [official Python website](https://www.python.org/downloads/release/python-2718/) Follow the installation instructions for your operating system.
 
 2. Get Volatility 2
 Option 1: Clone from GitHub
 git clone https://github.com/volatilityfoundation/volatility.git
+
 Option 2: Zip Download
 Alternatively, download the zip file from the Volatility 2 GitHub releases page.
 
-3. Set Up
+4. Set Up
 After retrieving the files, navigate to the Volatility 2 directory:
 
-4. Execute Volatility 2
+5. Execute Volatility 2
 Run the tool with:
 python2 vol.py -h
 This command displays the help details, showcasing available commands and options.
