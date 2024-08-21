@@ -9,7 +9,7 @@ Option 1: Clone from GitHub
 git clone https://github.com/volatilityfoundation/volatility.git
 
 Option 2: Zip Download
-Alternatively, download the zip file from the Volatility 2 GitHub releases page.
+Alternatively, download the zip file from the [Volatility 2 GitHub releases page](https://search.brave.com/search?q=Volatility+2+GitHub+releases+page.&source=desktop)
 
 4. Set Up
 After retrieving the files, navigate to the Volatility 2 directory:
