@@ -6,7 +6,7 @@ Download and install Python 2.7 from the [official Python website](https://www.p
 
 2. Get Volatility 2
 Option 1: Clone from GitHub
-git clone https://github.com/volatilityfoundation/volatility.git
+`git clone https://github.com/volatilityfoundation/volatility.git`
 
 Option 2: Zip Download
 Alternatively, download the zip file from the [Volatility 2 GitHub releases page](https://search.brave.com/search?q=Volatility+2+GitHub+releases+page.&source=desktop)
