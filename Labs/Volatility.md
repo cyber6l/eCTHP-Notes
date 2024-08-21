@@ -11,15 +11,16 @@ Option 1: Clone from GitHub
 Option 2: Zip Download
 Alternatively, download the zip file from the [Volatility 2 GitHub releases page](https://search.brave.com/search?q=Volatility+2+GitHub+releases+page.&source=desktop)
 
-4. Set Up
+3. Set Up
 After retrieving the files, navigate to the Volatility 2 directory:
+`cd volatility`
 
-5. Execute Volatility 2
+4. Execute Volatility 2
 Run the tool with:
 python2 vol.py -h
 This command displays the help details, showcasing available commands and options.
 
-### **4. Popular Plugins**
+### ** Popular Plugins**
 
 Volatility 2 offers a variety of plugins to explore memory dumps. Here are some frequently used ones:
 
