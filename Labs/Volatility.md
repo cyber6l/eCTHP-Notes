@@ -1,27 +1,22 @@
 I found resources like [MemLabs on GitHub](https://github.com/stuxnet999/MemLabs) and [CyberDefenders DumpMe](https://cyberdefenders.org/blueteam-ctf-challenges/dumpme/) incredibly helpful for studying and applying **Volatility**. These sources provided practical challenges and hands-on experience that enhanced my understanding of memory forensics and how to effectively use Volatility for analyzing memory dumps.
 
 
-### **1. Get Volatility 2**
+1. Install Python 2
+Download and install Python 2.7 from the [official Python website](https://www.python.org/downloads/release/python-2718/). Follow the installation instructions for your operating system.
 
-#### **Option 1: Clone from GitHub**
+2. Get Volatility 2
+Option 1: Clone from GitHub
+git clone https://github.com/volatilityfoundation/volatility.git
+Option 2: Zip Download
+Alternatively, download the zip file from the Volatility 2 GitHub releases page.
 
-`git clone https://github.com/volatilityfoundation/volatility.git`
-#### **Option 2: Zip Download**
+3. Set Up
+After retrieving the files, navigate to the Volatility 2 directory:
 
-Alternatively, grab a zip from the [Volatility 2 GitHub page](https://github.com/volatilityfoundation/volatility/releases).
-
-### **2. Set Up**
-
-After retrieval, go to the Volatility 2 directory:
-
-`cd volatility`
-### **3. Execute Volatility 2**
-
+4. Execute Volatility 2
 Run the tool with:
-
-`python2 vol.py -h`
-
-This will display help details, showcasing available commands.
+python2 vol.py -h
+This command displays the help details, showcasing available commands and options.
 
 ### **4. Popular Plugins**
 
